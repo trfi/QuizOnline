@@ -1,0 +1,24 @@
+<main>
+  <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+    <div class="mx-auto grid gap-4 lg:gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+      <div *ngFor="let s of subjects | slice: (page-1) * pageSize : page * pageSize" class="max-w-xs bg-white rounded-lg overflow-hidden mt-10"
+        style="box-shadow: 0 0 10px 0px rgba(0,0,0,0.30);">
+        <div class="flex justify-center items-center h-20 bg-gray-700 px-2">
+          <h1 class="text-gray-200 py-3 font-bold text-lg text-center">{{s.Name}}</h1>
+        </div>
+        <div class="px-12">
+          <img class="w-full h-30 object-cover mt-4 mb-3" src="assets/images/logos/{{s.Logo}}" alt="NIKE AIR">
+        </div>
+        <div class="flex items-center justify-end px-4 py-2 mb-3 bg-gray-900">
+          <a routerLink="subject/{{s.Id}}" class="px-3 py-1 bg-gray-200 text-sm text-gray-900 font-semibold rounded-2xl uppercase hover:text-pink-600 hover:no-underline">Start the
+            test</a>
+        </div>
+      </div>
+    </div>
+    <div class="col d-flex justify-content-center pt-4 mt-3">
+      <p>Phan trang</p>
+      <!-- <ngb-pagination [collectionSize]="(subjects.length/8*10)" [(page)]="page" [rotate]="true" [boundaryLinks]="true"></ngb-pagination> -->
+    </div>
+
+  </div>
+</main>

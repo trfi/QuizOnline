@@ -1,0 +1,234 @@
+[
+  {
+    "Id": 25660,
+    "Text": "Có mấy cách sử dụng css cho web?",
+    "Marks": 1,
+    "AnswerId": 106230,
+    "Answers": [
+      {
+        "Id": 106230,
+        "Text": "Có 3 cách: inline, embedded và linked"
+      },
+      {
+        "Id": 106231,
+        "Text": "Có 4 cách: inline, embedded, linked và css riêng"
+      },
+      {
+        "Id": 106232,
+        "Text": "Có 1 cách: inline"
+      },
+      {
+        "Id": 106233,
+        "Text": "Có 2 cách: inline và embedded"
+      }
+    ]
+  },
+  {
+    "Id": 25661,
+    "Text": "Thẻ dòng (inline) có thể chứa thẻ khối (block)?",
+    "Marks": 1,
+    "AnswerId": 106235,
+    "Answers": [
+      {
+        "Id": 106234,
+        "Text": "Đúng"
+      },
+      {
+        "Id": 106235,
+        "Text": "Sai"
+      }
+    ]
+  },
+  {
+    "Id": 25662,
+    "Text": "Để viết chú thích trong các file css người sử dụng có thể sử dụng cách nào dưới đây: a. <!-- chú thích--> b. // chú thích c. -- chú thích d. /* chú thích */",
+    "Marks": 1,
+    "AnswerId": 106238,
+    "Answers": [
+      {
+        "Id": 106236,
+        "Text": "a, c"
+      },
+      {
+        "Id": 106237,
+        "Text": "d"
+      },
+      {
+        "Id": 106238,
+        "Text": "a"
+      },
+      {
+        "Id": 106239,
+        "Text": "a, d"
+      }
+    ]
+  },
+  {
+    "Id": 25663,
+    "Text": "Nội dung của trang web nằm trong thẻ nào?",
+    "Marks": 1,
+    "AnswerId": 106240,
+    "Answers": [
+      {
+        "Id": 106240,
+        "Text": "Thẻ body"
+      },
+      {
+        "Id": 106241,
+        "Text": "Thẻ title"
+      },
+      {
+        "Id": 106242,
+        "Text": "Thẻ style"
+      },
+      {
+        "Id": 106243,
+        "Text": "Thẻ head"
+      }
+    ]
+  },
+  {
+    "Id": 25664,
+    "Text": "Đoạn mã nào dưới đây viết thẻ lồng chính xác nhất?",
+    "Marks": 1,
+    "AnswerId": 106246,
+    "Answers": [
+      {
+        "Id": 106244,
+        "Text": "<div id=\"menu\">   <ul>     <li> <a href=\"#\">Trang chủ</a></li>     <li> <a href=\"#\">Giới thiệu</a></li>   <div> </ul>"
+      },
+      {
+        "Id": 106245,
+        "Text": "<div id=\"menu\">   <ul>     <li> <a href=\"#\">Trang chủ</a></li>     <li> <a href=\"#\">Giới thiệu</a></ul>   </li> </div>"
+      },
+      {
+        "Id": 106246,
+        "Text": "<div id=\"menu\">   <ul>     <li> <a href=\"#\">Trang chủ</a></li>     <li> <a href=\"#\">Giới thiệu</a></li>   </ul> </div>"
+      },
+      {
+        "Id": 106247,
+        "Text": "<div id=\"menu\">   <ul>     <li> <a href=\"#\">Trang chủ</li></a>     <li> <a href=\"#\">Giới thiệu</a></li>   </ul> </div>"
+      }
+    ]
+  },
+  {
+    "Id": 25665,
+    "Text": "Thẻ nào là thẻ khối (block) trong các thẻ sau:",
+    "Marks": 1,
+    "AnswerId": 106250,
+    "Answers": [
+      {
+        "Id": 106248,
+        "Text": "Thẻ em"
+      },
+      {
+        "Id": 106249,
+        "Text": "Thẻ a"
+      },
+      {
+        "Id": 106250,
+        "Text": "Thẻ h1"
+      },
+      {
+        "Id": 106251,
+        "Text": "Thẻ strong"
+      }
+    ]
+  },
+  {
+    "Id": 25666,
+    "Text": "Ký tự \"&lt;\" được sử dụng để làm gì trong XHTML?",
+    "Marks": 1,
+    "AnswerId": 106252,
+    "Answers": [
+      {
+        "Id": 106252,
+        "Text": "Đại diện cho ký tự < được hiển thị trên màn hình"
+      },
+      {
+        "Id": 106253,
+        "Text": "Đại diện cho ký tự (©) được hiển thị trên màn hình"
+      },
+      {
+        "Id": 106254,
+        "Text": "Chỉ là các ký tự bình thường"
+      },
+      {
+        "Id": 106255,
+        "Text": "Đại diện cho ký tự ® được hiển thị trên màn hình"
+      }
+    ]
+  },
+  {
+    "Id": 25667,
+    "Text": "Trong Dreamweaver, khi ở chế độ Code View muốn tự động thụt lề của các thẻ lồng nhau sử dụng cách nào?",
+    "Marks": 1,
+    "AnswerId": 106257,
+    "Answers": [
+      {
+        "Id": 106256,
+        "Text": "menu Commands>Check Spelling"
+      },
+      {
+        "Id": 106257,
+        "Text": "menu Commands>Apply Source Formatting"
+      },
+      {
+        "Id": 106258,
+        "Text": "menu View>Code"
+      },
+      {
+        "Id": 106259,
+        "Text": "menu View>Design"
+      }
+    ]
+  },
+  {
+    "Id": 25668,
+    "Text": "Thẻ nào là thẻ cha của thẻ img trong đoạn mã sau? <div id=\"header\">     <div id=\"banner\">         <img src=\"Images/Banner.jpg\" />         <p id=\"logo\">Việt Nam Xuất Khẩu</p>     </div>     <div id=\"menu\"> </div> </div>",
+    "Marks": 1,
+    "AnswerId": 106263,
+    "Answers": [
+      {
+        "Id": 106260,
+        "Text": "<div id=\"header\">"
+      },
+      {
+        "Id": 106261,
+        "Text": "<div id=\"menu\">"
+      },
+      {
+        "Id": 106262,
+        "Text": "<p id=\"logo\">"
+      },
+      {
+        "Id": 106263,
+        "Text": "<div id=\"banner\">"
+      }
+    ]
+  },
+  {
+    "Id": 25669,
+    "Text": "Xác định luật css viết sai trong đoạn mã sau: <div id=\"header\">     <div id=\"banner\">         <img src=\"Images/Banner.jpg\" />         <p id=\"logo\">Việt Nam Xuất Khẩu</p>     </div>     <div id=\"menu\"> </div> </div>",
+    "Marks": 1,
+    "AnswerId": 106265,
+    "Answers": [
+      {
+        "Id": 106264,
+        "Text": "#banner #logo{color:#F00;}"
+      },
+      {
+        "Id": 106265,
+        "Text": "#header .banner p{color:#F00;}"
+      },
+      {
+        "Id": 106266,
+        "Text": "#banner p{color:#F00;}"
+      },
+      {
+        "Id": 106267,
+        "Text": "#header #banner p{color:#F00;}"
+      }
+    ]
+  }
+]

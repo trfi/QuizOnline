@@ -1,0 +1,105 @@
+<main>
+  <div class="max-w-7xl h-95 mx-auto py-6 sm:px-6 lg:px-8">
+    <div class="px-4 py-6 sm:px-0">
+
+      <!-- Current Question Number -->
+      <div class="flex flex-row items-center mb-6">
+        <div class="flex text-gray-700">
+          <div class="flex h-10 font-medium rounded-full bg-gray-200" id="listNumberQuestion">{{classActive()}}
+            <div (click)="goToIndex(0)"
+              class="w-10 md:flex justify-center items-center hidden cursor-pointer leading-5 transition duration-150 ease-in rounded-full">
+              1</div>
+            <div (click)="goToIndex(1)"
+              class="w-10 md:flex justify-center items-center hidden cursor-pointer leading-5 transition duration-150 ease-in rounded-full">
+              2</div>
+            <div (click)="goToIndex(2)"
+              class="w-10 md:flex justify-center items-center hidden cursor-pointer leading-5 transition duration-150 ease-in rounded-full">
+              3</div>
+            <div (click)="goToIndex(3)"
+              class="w-10 md:flex justify-center items-center hidden cursor-pointer leading-5 transition duration-150 ease-in rounded-full">
+              4</div>
+            <div (click)="goToIndex(4)"
+              class="w-10 md:flex justify-center items-center hidden cursor-pointer leading-5 transition duration-150 ease-in rounded-full">
+              5</div>
+            <div (click)="goToIndex(5)"
+              class="w-10 md:flex justify-center items-center hidden cursor-pointer leading-5 transition duration-150 ease-in rounded-full">
+              6</div>
+            <div (click)="goToIndex(6)"
+              class="w-10 md:flex justify-center items-center hidden cursor-pointer leading-5 transition duration-150 ease-in rounded-full">
+              7</div>
+            <div (click)="goToIndex(7)"
+              class="w-10 md:flex justify-center items-center hidden cursor-pointer leading-5 transition duration-150 ease-in rounded-full">
+              8</div>
+            <div (click)="goToIndex(8)"
+              class="w-10 md:flex justify-center items-center hidden cursor-pointer leading-5 transition duration-150 ease-in rounded-full">
+              9</div>
+            <div (click)="goToIndex(9)"
+              class="w-10 md:flex justify-center items-center hidden cursor-pointer leading-5 transition duration-150 ease-in rounded-full">
+              10</div>
+            <div
+              class="w-10 h-8 md:hidden flex justify-center items-center cursor-pointer leading-5 transition duration-150 ease-in rounded-full bg-pink-600 text-white">
+              4</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rounded-lg h-auto bg-gray-100 pt-12 pb-8">
+        <div class="flex justify-between">
+          <div class="mx-8 md:mx-36 lg:mx-44 2xl:mx-56">
+            <h1 class="font-sans text-gray-400 font-semibold leading-10 w-full">Question {{index+1}}</h1>
+            <h4 class="font-semibold mt-5 mb-12">{{currentQuestion?.Text}}</h4>
+          </div>
+          <div class="mr-8 md:mr-36 lg:mr-44 2xl:mr-56">
+            <span id="minute" class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
+              <span aria-hidden class="absolute inset-0 bg-green-200 opacity-50 rounded-full"></span>
+              {{countdown.minutes}}:{{countdown.seconds}}
+            </span>
+          </div>
+        </div>
+        <hr class="mx-auto border-t-4 border-gray-500 opacity-5 w-4/5">
+        <div class="my-14 mx-8 md:mx-36 lg:mx-44 2xl:mx-56">
+          <label class="text-gray-800" *ngFor='let ans of currentQuestion?.Answers'>
+            <div class="flex justify-between items-center bg-white border-l-4 border-pink-700 px-6 py-2 mb-4">
+              {{ans.Text}}
+              <input type="radio" name="answerRadios"
+              [checked]="answers[currentQuestion.Id]===ans.Id"
+              (change)="choose(currentQuestion.Id,ans.Id)"
+              >
+            </div>
+          </label>
+        </div>
+      </div>
+      <div class="flex justify-between items-center py-10">
+        <div></div>
+        <div class="flex">
+          <button (click)='previous()'
+            class="focus:outline-none focus:ring-4 focus:ring-blue-500 mr-5 w-32 relative p-2 bg-gray-100 text-gray-500 rounded-full font-semibold flex items-center">
+            <span class="pl-10">Previous</span>
+            <span class="absolute inset-y-0 left-0 flex items-center rounded-full bg-gray-200 text-gray-400 p-2">
+              <svg class="w-5" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                  d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" />
+              </svg>
+            </span>
+          </button>
+
+          <button (click)='next()'
+            class="focus:outline-none focus:ring-4 focus:ring-green-400 w-32 relative p-2 bg-gray-100 text-gray-500 rounded-full font-semibold flex items-center">
+            <span class="absolute inset-y-0 right-0 flex items-center rounded-full bg-gray-200 text-gray-400 p-2">
+              <svg class="w-5" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                  d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" />
+              </svg>
+            </span>
+            <span class="pl-7">Next</span>
+          </button>
+        </div>
+
+        <div class="flex">
+          <a (click)='submit()' routerLink="/subject/{{idSub}}/result"
+            class="focus:outline-none focus:ring-4 focus:ring-yellow-400 text-white bg-pink-600 rounded-full font-semibold py-2 px-10">Finish</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

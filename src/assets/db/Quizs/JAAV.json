@@ -1,0 +1,242 @@
+[
+  {
+    "Id": 26120,
+    "Text": "Package nào chứa các class kiểu dữ liệu",
+    "Marks": 1,
+    "AnswerId": 108224,
+    "Answers": [
+      {
+        "Id": 108224,
+        "Text": "java.lang"
+      },
+      {
+        "Id": 108225,
+        "Text": "java.io"
+      },
+      {
+        "Id": 108226,
+        "Text": "java.ouput"
+      },
+      {
+        "Id": 108227,
+        "Text": "java.swing"
+      },
+      {
+        "Id": 108228,
+        "Text": "java.util"
+      },
+      {
+        "Id": 108229,
+        "Text": "java.input"
+      }
+    ]
+  },
+  {
+    "Id": 26121,
+    "Text": "Trong file MyCode.java chứa đoạn code sau: public class MyClass{}public interface MyInterface{}Mô tả nào đúng với đoạn code này trong file MyCode?",
+    "Marks": 1,
+    "AnswerId": 108230,
+    "Answers": [
+      {
+        "Id": 108230,
+        "Text": "Đoạn code trên không có phương thức main()"
+      },
+      {
+        "Id": 108231,
+        "Text": "MyClass phải kế thừa từ MyInterface"
+      },
+      {
+        "Id": 108232,
+        "Text": "Không thể có một public class hoặc interface có cùng tên trong file code Java này."
+      },
+      {
+        "Id": 108233,
+        "Text": "MyClass phải thực thi MyInterface"
+      },
+      {
+        "Id": 108234,
+        "Text": "Phải có một public class hoặc interface có tên là MyCode"
+      },
+      {
+        "Id": 108235,
+        "Text": "Phải có nhiều public class hoặc interface có tên là MyCode"
+      }
+    ]
+  },
+  {
+    "Id": 26122,
+    "Text": "Trong Java, 5/2 có kết quả là:",
+    "Marks": 1,
+    "AnswerId": 108240,
+    "Answers": [
+      {
+        "Id": 108236,
+        "Text": "0"
+      },
+      {
+        "Id": 108237,
+        "Text": "Có lỗi"
+      },
+      {
+        "Id": 108238,
+        "Text": "3"
+      },
+      {
+        "Id": 108239,
+        "Text": "2.5"
+      },
+      {
+        "Id": 108240,
+        "Text": "2"
+      }
+    ]
+  },
+  {
+    "Id": 26123,
+    "Text": "Trong một package, đối với một thành phần (member) khi không khai báo từ khóa private, public, protected thì quyền truy cập đối với thành phần đó là",
+    "Marks": 1,
+    "AnswerId": 108244,
+    "Answers": [
+      {
+        "Id": 108241,
+        "Text": "Có thể truy cập bởi các class bên ngoài package."
+      },
+      {
+        "Id": 108242,
+        "Text": "Chỉ có thể truy cập trong cùng một class."
+      },
+      {
+        "Id": 108243,
+        "Text": "Có thể truy cập bởi các class kế thừa từ class này."
+      },
+      {
+        "Id": 108244,
+        "Text": "Có thể truy cập bởi các class trong cùng một package."
+      },
+      {
+        "Id": 108245,
+        "Text": "Có thể truy cập bởi các class là super của class này."
+      }
+    ]
+  },
+  {
+    "Id": 26124,
+    "Text": "Chọn câu trả lời đúng:interface chứa các method là",
+    "Marks": 1,
+    "AnswerId": 108248,
+    "Answers": [
+      {
+        "Id": 108246,
+        "Text": "Các method là final"
+      },
+      {
+        "Id": 108247,
+        "Text": "Các method protected"
+      },
+      {
+        "Id": 108248,
+        "Text": "Tất cả các method abstract"
+      },
+      {
+        "Id": 108249,
+        "Text": "Các method là public"
+      },
+      {
+        "Id": 108250,
+        "Text": "Các method là private"
+      },
+      {
+        "Id": 108251,
+        "Text": "Một số method là abstract"
+      }
+    ]
+  },
+  {
+    "Id": 26125,
+    "Text": "Đoạn code này có lỗi không?import java.util.*;package myPackage;class MyClass extends MyInterface {} interface MyInterface {}",
+    "Marks": 1,
+    "AnswerId": 108256,
+    "Answers": [
+      {
+        "Id": 108252,
+        "Text": "Interface MyInterface có thể kế thừa"
+      },
+      {
+        "Id": 108253,
+        "Text": "Không có lỗi"
+      },
+      {
+        "Id": 108254,
+        "Text": "Dòng import.java.util.* sai cú pháp"
+      },
+      {
+        "Id": 108255,
+        "Text": "class MyClass phải được khai báo là public"
+      },
+      {
+        "Id": 108256,
+        "Text": "Interface MyInterface không thể kế thừa"
+      }
+    ]
+  },
+  {
+    "Id": 26126,
+    "Text": "Package nào được dùng để trình bày giao diện đồ họa?",
+    "Marks": 1,
+    "AnswerId": 108262,
+    "Answers": [
+      {
+        "Id": 108257,
+        "Text": "java.ouput"
+      },
+      {
+        "Id": 108258,
+        "Text": "java.io"
+      },
+      {
+        "Id": 108259,
+        "Text": "java.util"
+      },
+      {
+        "Id": 108260,
+        "Text": "java.lang"
+      },
+      {
+        "Id": 108261,
+        "Text": "java.input"
+      },
+      {
+        "Id": 108262,
+        "Text": "java.swing"
+      }
+    ]
+  },
+  {
+    "Id": 26127,
+    "Text": "Trong Java, chỉ số của mảng bắt đầu là",
+    "Marks": 1,
+    "AnswerId": 108265,
+    "Answers": [
+      {
+        "Id": 108263,
+        "Text": "2"
+      },
+      {
+        "Id": 108264,
+        "Text": "tùy ý"
+      },
+      {
+        "Id": 108265,
+        "Text": "0"
+      },
+      {
+        "Id": 108266,
+        "Text": "-1"
+      },
+      {
+        "Id": 108267,
+        "Text": "1"
+      }
+    ]
+  }
+]

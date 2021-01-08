@@ -1,0 +1,56 @@
+.clear-both{
+    clear: both;
+}
+header {
+    width: 100%;
+    .logo{
+        width: 50%;
+    }
+}
+main{
+    .list-user{
+        img{
+            height: 6%;
+        }
+    }
+    .add-user {
+            padding: 25px;
+            width: 63%;
+            margin: auto;
+            clear: both;
+            border-radius: 12px;
+            background: #dcf3dc;
+        h4{
+            text-align: center;
+        }
+    }
+}
+#tabs{
+    border: none;
+    background: none;
+    li{
+        padding: 0 10px 0 10px;
+        float: left;
+        list-style: none;
+        a{
+            color: #000;
+            font-size: 1.1em;
+        }
+        .active{
+            border-radius: 4px;
+            padding: 8px 20px;
+            color: #fff;
+            background-color: #1da90c;
+        }
+    }
+}
+footer{
+    .content-footer{
+        height: 100px;
+        background-color: #f1f9e8;
+        h6{
+            line-height: 100px;
+            color: #635b00;
+        }
+    }
+}

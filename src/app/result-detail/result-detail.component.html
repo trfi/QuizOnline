@@ -1,0 +1,25 @@
+<main>
+  <div class="max-w-7xl h-95 mx-auto py-6 sm:px-6 lg:px-8">
+    <div class="px-4 py-6 sm:px-0">
+
+      <div class="rounded-lg h-auto bg-gray-100 pt-12 pb-8">
+        <div class="mx-8 md:mx-36 lg:mx-44 2xl:mx-56">
+          <h1 class="font-sans text-gray-400 font-semibold leading-10 w-full">Question {{quesIndex+1}}</h1>
+          <h4 class="font-semibold mt-5 mb-12">{{question?.Text}}</h4>
+        </div>
+        <hr class="mx-auto border-t-4 border-gray-500 opacity-5 w-4/5">
+        <div class="my-14 mx-8 md:mx-36 lg:mx-44 2xl:mx-56">
+          <label class="text-gray-800" *ngFor='let ans of question?.Answers'>
+            <div [ngClass]="{'bg-green-500' : question.AnswerId===ans.Id, 'bg-red-500' : answers[question.Id]===ans.Id, 'bg-white' : answers[question.Id]!==ans.Id}" class="flex justify-between items-center border-l-4 border-pink-700 px-6 py-2 mb-4">
+              {{ans.Text}}
+              <input type="radio" name="answerRadios" [checked]="answers[question.Id]===ans.Id">
+              <!-- [checked]="answers[currentQuestion.Id]===ans.Id"
+              (change)="choose(currentQuestion.Id,ans.Id)" -->
+            </div>
+          </label>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+</main>

@@ -1,0 +1,242 @@
+[
+  {
+    "Id": 24661,
+    "Text": "Dịch vụ Amazon Elastic Compute Cloud có chức năng chính là gì?",
+    "Marks": 1,
+    "AnswerId": 102331,
+    "Answers": [
+      {
+        "Id": 102331,
+        "Text": "Hỗ trợ lưu trữ web"
+      },
+      {
+        "Id": 102332,
+        "Text": "Hỗ trợ cập nhật dữ liệu"
+      },
+      {
+        "Id": 102333,
+        "Text": "Hỗ trợ thay đổi kiến trúc mô hình cloud"
+      },
+      {
+        "Id": 102334,
+        "Text": "Hỗ trợ truy xuất dữ liệu"
+      }
+    ]
+  },
+  {
+    "Id": 24662,
+    "Text": "Câu nào là đúng đối với UDDI?",
+    "Marks": 1,
+    "AnswerId": 102337,
+    "Answers": [
+      {
+        "Id": 102335,
+        "Text": "UDDI là cách viết khác của WSDL"
+      },
+      {
+        "Id": 102336,
+        "Text": "UDDI tương tự như WSDL"
+      },
+      {
+        "Id": 102337,
+        "Text": "UDDI cho phép ghi thông tin về doanh nghiệp và chi tiết sử dụng dịch vụ web."
+      },
+      {
+        "Id": 102338,
+        "Text": "UDDI không cho phép ghi thông tin về doanh nghiệp và chi tiết sử dụng dịch vụ web, nó chỉ được thực hiện qua WSDL"
+      }
+    ]
+  },
+  {
+    "Id": 24663,
+    "Text": "Câu nào là đúng đối với WSDL?",
+    "Marks": 1,
+    "AnswerId": 102339,
+    "Answers": [
+      {
+        "Id": 102339,
+        "Text": "WSDL Cho phép các nhà phát triển ghi thông tin dịch vụ web"
+      },
+      {
+        "Id": 102340,
+        "Text": "WSDL kết nối trực tiếp với cơ sở dữ liệu SQLite và trả về kết quả cho người dùng"
+      },
+      {
+        "Id": 102341,
+        "Text": "WSDL là cầu nối giữa người sử dụng với Database"
+      },
+      {
+        "Id": 102342,
+        "Text": "WSDL không cho phép các nhà phát triển ghi thông tin dịch vụ web"
+      }
+    ]
+  },
+  {
+    "Id": 24664,
+    "Text": "WSDL là viết tắt của cụm từ nào?",
+    "Marks": 1,
+    "AnswerId": 102345,
+    "Answers": [
+      {
+        "Id": 102343,
+        "Text": "Width Server Description Language"
+      },
+      {
+        "Id": 102344,
+        "Text": "Width Services Description Language"
+      },
+      {
+        "Id": 102345,
+        "Text": "Web Services Description Language"
+      },
+      {
+        "Id": 102346,
+        "Text": "Web Server Description Language"
+      }
+    ]
+  },
+  {
+    "Id": 24665,
+    "Text": "API là viết tắt của cụm từ nào?",
+    "Marks": 1,
+    "AnswerId": 102349,
+    "Answers": [
+      {
+        "Id": 102347,
+        "Text": "Application Private Interface"
+      },
+      {
+        "Id": 102348,
+        "Text": "Application Programming Internet"
+      },
+      {
+        "Id": 102349,
+        "Text": "Application Programming Interface"
+      },
+      {
+        "Id": 102350,
+        "Text": "Application Public Interface"
+      }
+    ]
+  },
+  {
+    "Id": 24666,
+    "Text": "Câu nào là đúng đối với API?",
+    "Marks": 1,
+    "AnswerId": 102351,
+    "Answers": [
+      {
+        "Id": 102351,
+        "Text": "API cho phép các chương trình sử dụng có thể giao tiếp với nhau mà không cần sự tham gia của người dùng"
+      },
+      {
+        "Id": 102352,
+        "Text": "API bản chất là một webserver"
+      },
+      {
+        "Id": 102353,
+        "Text": "Để giao tiếp các chương trình sử dụng API nhất thiết phải có sự tham gia của người dùng"
+      },
+      {
+        "Id": 102354,
+        "Text": "API bản chất là một không gian lưu trữ web"
+      }
+    ]
+  },
+  {
+    "Id": 24667,
+    "Text": "Câu nào là đúng đối với SOAP?",
+    "Marks": 1,
+    "AnswerId": 102357,
+    "Answers": [
+      {
+        "Id": 102355,
+        "Text": "Sử dụng để mã hóa thông điệp HTML"
+      },
+      {
+        "Id": 102356,
+        "Text": "Sử dụng để duy trì kết nối internet"
+      },
+      {
+        "Id": 102357,
+        "Text": "Sử dụng để mã hóa thông điệp XML"
+      },
+      {
+        "Id": 102358,
+        "Text": "Sử dụng để mã hóa CSS"
+      }
+    ]
+  },
+  {
+    "Id": 24668,
+    "Text": "Câu nào là đúng đối với API?",
+    "Marks": 1,
+    "AnswerId": 102362,
+    "Answers": [
+      {
+        "Id": 102359,
+        "Text": "API là một file thư viện dạng dll"
+      },
+      {
+        "Id": 102360,
+        "Text": "API là một file thực thi dạng exe"
+      },
+      {
+        "Id": 102361,
+        "Text": "API không cho phép các nhà phát triển khác sử dụng để phát triển sản phẩm của riêng họ"
+      },
+      {
+        "Id": 102362,
+        "Text": "API cho phép các nhà phát triển khác sử dụng để phát triển sản phẩm của riêng họ"
+      }
+    ]
+  },
+  {
+    "Id": 24669,
+    "Text": "AJAX sử dụng công nghệ nào?",
+    "Marks": 1,
+    "AnswerId": 102364,
+    "Answers": [
+      {
+        "Id": 102363,
+        "Text": "Sử dụng các công nghệ GSM, CDMA, CSS"
+      },
+      {
+        "Id": 102364,
+        "Text": "Sử dụng các công nghệ XHTML, CSS, JSON"
+      },
+      {
+        "Id": 102365,
+        "Text": "Chỉ sử dụng duy nhất công nghệ CDMA"
+      },
+      {
+        "Id": 102366,
+        "Text": "Sử dụng các công nghẹ XHTML, CMS, CRM, HTML, CSS"
+      }
+    ]
+  },
+  {
+    "Id": 24670,
+    "Text": "Bất lợi của AJAX là gì?",
+    "Marks": 1,
+    "AnswerId": 102370,
+    "Answers": [
+      {
+        "Id": 102367,
+        "Text": "Có thể hiển thị lịch sử truy cập nhưng tối đa hiển thị là 10 bản ghi"
+      },
+      {
+        "Id": 102368,
+        "Text": "Phải sử dụng nhiều đoạn kịch bản PHP"
+      },
+      {
+        "Id": 102369,
+        "Text": "Phải sử dụng nhiều doạn kịch bản JavaScript"
+      },
+      {
+        "Id": 102370,
+        "Text": "Không hiển thị lịch sử truy cập"
+      }
+    ]
+  }
+]

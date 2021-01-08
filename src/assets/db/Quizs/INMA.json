@@ -1,0 +1,242 @@
+[
+  {
+    "Id": 24711,
+    "Text": "Trước khi viết một thông điệp marketing cho website của bạn, bạn cần phải:",
+    "Marks": 1,
+    "AnswerId": 102534,
+    "Answers": [
+      {
+        "Id": 102531,
+        "Text": "Tìm hiểu xem khách hàng lý tưởng của mình bao nhiêu tuổi"
+      },
+      {
+        "Id": 102532,
+        "Text": "Tìm hiểu xem những đối thủ đang viết như thế nào và bắt chước họ"
+      },
+      {
+        "Id": 102533,
+        "Text": "Tìm hiểu xem khách hàng lý tưởng của mình giới tính là gì"
+      },
+      {
+        "Id": 102534,
+        "Text": "Tìm hiểu xem khách hàng lý tưởng của mình là ai, đặc điểm của họ là gì"
+      }
+    ]
+  },
+  {
+    "Id": 24712,
+    "Text": "Twitter tạo nên sự khác biệt so với tất cả các đối thủ trong lĩnh vực blog cá nhân bằng cách:",
+    "Marks": 1,
+    "AnswerId": 102535,
+    "Answers": [
+      {
+        "Id": 102535,
+        "Text": "Chỉ cho phép mỗi bài viết dài không quá 140 ký tự để bắt họ phải cung cấp những bài viết với hàm lượng “mật độ thông tin” cao nhất"
+      },
+      {
+        "Id": 102536,
+        "Text": "Qui định mỗi người chỉ được phép tạo ra một tài khoản"
+      },
+      {
+        "Id": 102537,
+        "Text": "Cho phép mỗi bài viết mà user đăng lên được phép viết dài vô hạn"
+      },
+      {
+        "Id": 102538,
+        "Text": "Cho phép mỗi bài viết mà user đăng lên có thể được định dạng đẹp đẽ và dễ dàng"
+      }
+    ]
+  },
+  {
+    "Id": 24713,
+    "Text": "Hai bí quyết để đánh tan sự hoài nghi của khách hàng khi họ vào mua hàng online là (hãy chọn một đáp án đúng):",
+    "Marks": 1,
+    "AnswerId": 102541,
+    "Answers": [
+      {
+        "Id": 102539,
+        "Text": "Đưa ra thật nhiều lợi ích của sản phẩm và đưa vào thật nhiều ảnh đẹp về sản phẩm"
+      },
+      {
+        "Id": 102540,
+        "Text": "Đưa ra bằng chứng chứng minh sản phẩm của bạn hoạt động tốt và viết nhiều bài báo PR về sản phẩm đó"
+      },
+      {
+        "Id": 102541,
+        "Text": "Đưa ra bằng chứng chứng minh sản phẩm của bạn hoạt động tốt và đưa ra chính sách có lợi nhất cho khách hàng nếu sản phẩm không hoạt động như ý"
+      },
+      {
+        "Id": 102542,
+        "Text": "Đưa ra thật nhiều đặc tính nổi trội của sản phẩm và viết nhiều bài viết hay về sản phẩm"
+      }
+    ]
+  },
+  {
+    "Id": 24714,
+    "Text": "Apple đã làm điều gì để iPhone trở nên khác biệt và nổi bật vào thời điểm ra đời năm 2007? (Hãy chọn đáp án hợp lý nhất)",
+    "Marks": 1,
+    "AnswerId": 102546,
+    "Answers": [
+      {
+        "Id": 102543,
+        "Text": "Apple đã đưa ra chức năng Multi-Touch (chạm đa điểm) trong iPhone"
+      },
+      {
+        "Id": 102544,
+        "Text": "Apple đã đưa thêm rất nhiều tính năng và đặc tính vào trong sản phẩm iPhone"
+      },
+      {
+        "Id": 102545,
+        "Text": "Apple đã đưa vào chức năng bàn phím ảo trong iPhone"
+      },
+      {
+        "Id": 102546,
+        "Text": "Apple đã đưa vào chức năng Multi-Touch (chạm đa điểm) trong iPhone và đưa ra kho ứng dụng Apple Store"
+      }
+    ]
+  },
+  {
+    "Id": 24715,
+    "Text": "Cách mà Google đánh bại Yahoo để thống lĩnh thị trường dịch vụ tìm kiếm online là:",
+    "Marks": 1,
+    "AnswerId": 102549,
+    "Answers": [
+      {
+        "Id": 102547,
+        "Text": "Đưa thêm nhiều tính năng, nhiều đặc tính sản phẩm hơn Yahoo"
+      },
+      {
+        "Id": 102548,
+        "Text": "Làm cho giao diện đẹp đẽ hơn Yahoo"
+      },
+      {
+        "Id": 102549,
+        "Text": "Đưa cho user ít chức năng, ít đặc tính hơn, nhưng trả lại kết quả tìm kiếm chính xác và chất lượng hơn Yahoo"
+      },
+      {
+        "Id": 102550,
+        "Text": "Làm cho giao diện đơn giản hơn Yahoo"
+      }
+    ]
+  },
+  {
+    "Id": 24716,
+    "Text": "Khi khách hàng lên website của bạn để xem hàng, điều gì sẽ có thể ngăn cản họ thực hiện hành động mua hàng?",
+    "Marks": 1,
+    "AnswerId": 102554,
+    "Answers": [
+      {
+        "Id": 102551,
+        "Text": "Giao diện website quá xấu"
+      },
+      {
+        "Id": 102552,
+        "Text": "Trang web có quá nhiều mặt hàng"
+      },
+      {
+        "Id": 102553,
+        "Text": "Trang web có quá ít mặt hàng"
+      },
+      {
+        "Id": 102554,
+        "Text": "Họ không tin tưởng, họ sợ bị lừa"
+      }
+    ]
+  },
+  {
+    "Id": 24717,
+    "Text": "Thị trường là gì?",
+    "Marks": 1,
+    "AnswerId": 102556,
+    "Answers": [
+      {
+        "Id": 102555,
+        "Text": "Thị trường của một hàng hóa là số lượng người mua và người bán hàng hóa đó"
+      },
+      {
+        "Id": 102556,
+        "Text": "Thị trường của một hàng hóa là là tập tất cả những người, những tổ chức có cùng nhu cầu về mặt hàng hóa đó công với tất cả những người đang bán hàng hóa đó"
+      },
+      {
+        "Id": 102557,
+        "Text": "Thị trường của một hàng hóa là là tập tất cả những người, những tổ chức có cùng nhu cầu về mặt hàng hóa đó"
+      },
+      {
+        "Id": 102558,
+        "Text": "Thị trường của một hàng hóa là tập tất cả những người đang cung cấp, đang bán hàng hóa đó"
+      }
+    ]
+  },
+  {
+    "Id": 24718,
+    "Text": "Hãy chọn ra thông điệp sẽ xóa tan sự nghi ngờ về khả năng hoạt động được của sản phẩm từ khách hàng tốt nhất:",
+    "Marks": 1,
+    "AnswerId": 102561,
+    "Answers": [
+      {
+        "Id": 102559,
+        "Text": "“Nếu sản phẩm của chúng tôi không hoạt động như cam kết, chúng tôi sẽ hoàn tiền 100% cho bạn”"
+      },
+      {
+        "Id": 102560,
+        "Text": "“Sản phẩm của chúng tôi được bảo hành trong 06 tháng”"
+      },
+      {
+        "Id": 102561,
+        "Text": "“Nếu sản phẩm của chúng tôi không hoạt động như cam kết, chúng tôi sẽ hoàn tiền 150% cho bạn”"
+      },
+      {
+        "Id": 102562,
+        "Text": "“Sản phẩm của chúng tôi được bảo hành trong 05 năm và đã được hàng trăm nghìn người sử dụng”"
+      }
+    ]
+  },
+  {
+    "Id": 24719,
+    "Text": "Tập đoàn Tân Hiệp Phát đã chọn thị trường ngách là sản phẩm gì để cạnh tranh lại với 02 đại gia trong lĩnh vực đồ uống là Coca-Cola và Pepsi?",
+    "Marks": 1,
+    "AnswerId": 102563,
+    "Answers": [
+      {
+        "Id": 102563,
+        "Text": "Trà xanh không độ"
+      },
+      {
+        "Id": 102564,
+        "Text": "Nước uống tăng lực Sting"
+      },
+      {
+        "Id": 102565,
+        "Text": "Sữa đậu nành"
+      },
+      {
+        "Id": 102566,
+        "Text": "Bia"
+      }
+    ]
+  },
+  {
+    "Id": 24720,
+    "Text": "Hãy chọn cách để viết các lời giới thiệu (testimonial) về sản phẩm đúng đắn:",
+    "Marks": 1,
+    "AnswerId": 102570,
+    "Answers": [
+      {
+        "Id": 102567,
+        "Text": "“Sau đây là ý kiến đánh giá về sản phẩm của chúng tôi từ Mr.H, Hà Nội”"
+      },
+      {
+        "Id": 102568,
+        "Text": "“Sau đây là ý kiến đánh giá về sản phẩm của chúng tôi từ Mr.H, CEO công ty X, Hà Nội”"
+      },
+      {
+        "Id": 102569,
+        "Text": "“Sau đây là ý kiến đánh giá về sản phẩm của chúng tôi từ Mr.H”"
+      },
+      {
+        "Id": 102570,
+        "Text": "“Sau đây là ý kiến đánh giá về sản phẩm của chúng tôi từ Mr.Hoàng Xuân Huy, CEO Công ty Alpha Book, 67 Thái Hà, Hà Nội”"
+      }
+    ]
+  }
+]
